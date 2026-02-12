@@ -1,0 +1,1 @@
+mount -a -> re-apply /etc/fstab

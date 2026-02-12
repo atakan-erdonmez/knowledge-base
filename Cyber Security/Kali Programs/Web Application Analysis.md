@@ -1,0 +1,9 @@
+- rapidscan: Awesome web scanner (uses wapiti, uniscan, xsser etc)
+- skipfish: Web vulnerability scanner
+- uniscan-gui: Web scanner 8 module (fingerprint, stress, robots.txt etc)
+- commix: Command-exec scanner
+- wpscan: WordPress scanner
+- waes: Web vulnerability scanner. Multi-program
+- wapiti: Black-box web scanner. Uses links
+- XSSstrike: XSS logic payload-creator
+- jsql: SQL automation

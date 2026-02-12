@@ -1,0 +1,1 @@
+Vmlinuz is kernal, initrd.img is initrd

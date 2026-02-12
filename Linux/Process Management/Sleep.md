@@ -1,0 +1,1 @@
+sleep x: Pause for x seconds. Generally used in loops and bash scripting

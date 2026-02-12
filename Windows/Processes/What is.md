@@ -1,0 +1,3 @@
+Processes run in the background on Windows systems. They either run automatically as part of the Windows operating system or are started by other installed applications.
+
+Processes associated with installed applications can often be terminated without causing a severe impact on the operating system. Certain processes are critical and, if terminated, will stop certain components of the operating system from running properly. Some examples include the Windows Logon Application, System, System Idle Process, Windows Start-Up Application, Client Server Runtime, Windows Session Manager, Service Host, and Local Security Authority Subsystem Service (LSASS) process.

@@ -1,0 +1,1 @@
+mkpasswd : create a passwd (frontend to crypt)

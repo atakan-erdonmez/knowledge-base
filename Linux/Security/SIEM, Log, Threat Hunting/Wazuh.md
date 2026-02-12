@@ -1,0 +1,1 @@
+A SIEM solution for central server & agent management. Couldn't configure to use the server as an agent.

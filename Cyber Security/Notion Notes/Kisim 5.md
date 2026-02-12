@@ -1,0 +1,26 @@
+- cewl <URL> -e (mail) -w <path> : Website olasi sifreleri yakalama / wordlist olusturma kelimeleri ceker
+- iwconfig: Wireless ifconfig
+- airmon-ng start wlan0: Monitor moda alma
+    - airmon-ng check kill: Monitor modu engelleyen islemleri oldur
+    - airmon-ng stop wlan0mon: Normal moda alma
+- BSSID: MAC of wireless
+- ESSID: Name of wirelss (birden cok WAP, tek ortak root SSID)
+- airodump-ng wlan0mon: Kablosuz ag dinleme
+- airodump-ng —channel <x> —bssid <MAC> wlan0mon: Gizli SSID ogrenme (aga bagli bir kullaniciyi dusurup tekrar baglayarak SSID ogrenilir bagli kullanici yoksa calismaz)
+- aireplay-ng -0 100 (trying number) -a <BSSID> -c <station/cihaz mac adresi> wlan0mon: Agdan dusurme
+- aairodump-ng —channel <> —bssid<> -ivs -w <path> wlan0mon: Paketleri kaydetme handshake yakalama
+- aiircrack-ng -w <path>: WEP sifre kirma
+- airodump -w : dinleme for hyandshake
+- aireplay ile handshake yakalama hizlandirilabilir
+- aircloud-ng ile internet uzerinde wifi sifresi kirilabilir
+- wash -i wlan0mon : WPS protected network finder
+- reaver : WPS
+- fern-wifi-cracker ile wifi parolalari kirilabilir
+- MAC filtreleme kullaniliyorsa airodump ile kullanici MAC’leri elde edilir
+- Wifite ile wifi parolalari kirilabilir
+- aircrack-ng -w <> -b <bssid> ./capdosyasi : Cap kirma
+- cowpatty -f <wordlist> -r <capdosyasi> -s <SSID>: Cap kirma
+- kismet ile kablosuz aglar hakkinda bilgi toplanabilir: kismet -c wlan0mon
+- freenom ile ucretsiz alanadi alinabilir
+- setoolkit 1-2-3-2 ile web siteleri kopyalanabilir
+- piwiewps wps cracklerinde kullanilabilir

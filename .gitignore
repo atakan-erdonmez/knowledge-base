@@ -1,0 +1,8 @@
+# Syncthing/System Junk
+.stfolder/
+.DS_Store
+
+# Obsidian Personal/Volatile files
+.obsidian/workspace.json
+.obsidian/backlink.json
+.obsidian/cache/
