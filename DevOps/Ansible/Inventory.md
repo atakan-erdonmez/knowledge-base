@@ -35,6 +35,10 @@ For a small company, basic ini format is fine. But for complex orgs, you would n
 #### ini formating
 
 ```ini
+[all_servers:children]
+web_servers
+db_servers
+
 [web_servers]
 web1 ansible_host=server1.company.com
 server2.company
@@ -42,10 +46,6 @@ server2.company
 [db_servers]
 sql1.company
 sql2.company
-
-[all_servers:children]
-web_servers
-db_servers
 ```
 
 
@@ -54,9 +54,16 @@ db_servers
 all:
 	children:
 		webservers:
-			hosts:
-				web1.example.com
-				web2.example.com
+			children:
+				webservers_us:
+					hosts:
+						web1.example.com
+							ansible_host: 192.168.8.101
+						web2.example.com
+				webservers_eu:
+					hosts:
+						web3.example.com
+						web4.example.com
 		dbservers:
 			hosts:
 				db1.example.com
