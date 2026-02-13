@@ -30,3 +30,13 @@
 	- Global settings > SSH
 		- Check use Windows SSH Key
 		- Uncheck Use internal ssh agent "MobAgent"
+
+
+I switched from this and created ~/.ssh/config file:
+```
+Host rasp.nexonet.space
+    ProxyCommand cloudflared.exe access ssh --hostname %h
+    User atakan
+
+
+```

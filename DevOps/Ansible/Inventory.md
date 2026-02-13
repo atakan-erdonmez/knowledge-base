@@ -1,4 +1,4 @@
-A list of instances to manage. You can use IP or hostname. You can group them as well
+ansiblA list of instances to manage. You can use IP or hostname. You can group them as well
 
 ```yaml
 server1.company.com
