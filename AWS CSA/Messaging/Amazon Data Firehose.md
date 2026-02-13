@@ -1,4 +1,4 @@
-![[data firewhose.png]]
+![[data firehose.png]]
 
 
 > Used to be called "Kinesis Data Firehose"
