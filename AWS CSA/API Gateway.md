@@ -6,13 +6,25 @@ Lambda + API Gateway: No infrastructure
 - Transform and validate requests and responses
 
 ## Integration
-### Lambda Function
+#### Lambda Function
 - Invoke functions
 - Easy way to expose REST API backed by AWS Lambda
-### HTTP
+#### HTTP
 - Expose HTTP endpoints in the backend
 - Example: internal HTTP API on premise, ALB...
 - Why? Add rate limiting, caching, user auth, API keys...
-### AWS Service
+#### AWS Service
 - Expose any AWS API through the API Gateway
 - Example: start an AWS Step Function workflow, post a message to SQS
+
+## Endpoint Types
+#### Edge Optimized
+- Default, for global clients
+- Requests are routed through CloudFront Edge locations (improved latency)
+- API Gateway still lives in only one region
+#### Regional:
+- For clients with the same region
+- Can manually combine with CloudFront (more control)
+#### Private:
+- Can only be accessed from VPC using interface VPC endpoint (ENI)
+- Use a resource policy to define access
