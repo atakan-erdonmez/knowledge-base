@@ -22,7 +22,7 @@ Automatic scaling. Much more expensive. Great for *unpredictable workloads* and 
 Fully-managed, highly available, seamless in-memory cache. Help solve read congestion, *microsecond latency*. Doesn't require application logic modification. TTL=5 min by default
 
 ### Stream Processing
-Ordered stream of item-level modifications (create/update/delete) in a table.
+Ordered stream of item-level modifications (create/update/delete) in a table. Necessary for *Global Tables*
 Use cases:
 - React to changes in real time (welcome email to users)
 - Real-time usage analytics
