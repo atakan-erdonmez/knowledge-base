@@ -44,4 +44,4 @@ When you publish a new version, it gets inited and snapshoted for low latency ac
 ## Network
 By default, Lambda functions are out of your VPC (Amazon managed VPC), so it can't access your resources. If you want it in your VPC, you need to define VPC ID, the Subnets and Security Groups.
 
-One of the most common use cases is with [[RDS Overview#RDS Proxy|RDS Proxy]]
+One of the most common use cases is with [[RDS#RDS Proxy|RDS Proxy]]

@@ -3,7 +3,7 @@
 - It allow to create db that are managed by AWS
 	- PostgreSQL
 	- MySQL
-	- MariDB
+	- MariaDB
 	- Oracle
 	- MsSQL
 	- IBM DB2
@@ -35,12 +35,12 @@ It is the replication for reading purpose.
 - Within AZ, cross AZ, cross region
 - Replication is ASYNC, reads are consistent
 - These replicas can be promoted to their own DB
-## Use Cases
+### Use Cases
 On top of an ongoing production database, if you want to run a reporting application to run analytics, it will overrun the database and slow down. Thus, creating a read replica fixes this problem
 
 Note: Read replicas are only used for SELECT statements
 
-## Network Cost
+### Network Cost
 For RDS read replicas within the same region, you don't pay cross AZ or cross-region fee
 
 # Multi AZ (Disaster Recovery)
@@ -54,8 +54,7 @@ It uses SYNC replication
 
 # RDS Custom
 
-Managed Oracle and Microsoft SQL Server Database with OS
-and database customization
+Managed Oracle and Microsoft SQL Server Database with OS and database customization
 - RDS: Automates setup, operation, and scaling of database in AWS
 - Custom: access to the underlying database and OS so you can
 	- Configure settings

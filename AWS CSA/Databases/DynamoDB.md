@@ -7,6 +7,7 @@ It is a fully managed, highly available NoSQL database. Distributed, scales to m
 
 It is made of *tables*. Each table has a primary key, and can have an infinite number of rows. Each item has attributes, which can be increased over time. Max item size=400kb
 
+> Can replace ElastiCache for caching
 
 ## Read/Write Capacity Modes
 ### Provisioned Mode (default)
