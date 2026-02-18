@@ -13,3 +13,6 @@ Has multi-AZ mode for some clusters
 
 ## Redshift Spectrum
 Query data that is already in S3 without loading it. The query is then submitted to thousands of Redshift Spectrum notes
+
+## Enhanced VPC Routing
+research
