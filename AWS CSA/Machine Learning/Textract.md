@@ -1,0 +1,1 @@
+Automatically extracts text, handwriting, and data from any scanned documents using AI and ML

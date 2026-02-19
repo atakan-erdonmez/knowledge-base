@@ -2,6 +2,7 @@
 Same technology that powers Alexa
 - **Automatic Speech Recognition (ASR)** to convert speech to text
 - Natural Language Understanding to recognize the intent of text, callers
+- Build conversational bots - chatbots
 
 ### Amazon Connect
 Receive calls, create contact flows, cloud-based virtual contact center

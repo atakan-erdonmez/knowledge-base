@@ -25,4 +25,7 @@ Checks the syntax of the playbook
 ## Ansible-lint
 It is a tool to check complex playbooks for bugs, errors, stylistic errors, and suspicious constructurs.
 `ansible-lint style_example.yaml`
-``
+
+
+## Conditions
+![[Conditions]]

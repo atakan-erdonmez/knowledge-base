@@ -1,4 +1,4 @@
-For Natural Language Processing – NL
+For Natural Language Processing – NLP
 - Fully managed and serverless service
 - **Uses machine learning to find insights and relationships in text**
 	- Language of the text
