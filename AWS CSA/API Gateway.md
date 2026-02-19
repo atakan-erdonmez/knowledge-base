@@ -1,4 +1,4 @@
-It is a way for clients to talk to AWS resources. They access the REST API, which then proxies to AWS resources.
+fIt is a way for clients to talk to AWS resources. They access the REST API, which then proxies to AWS resources.
 
 Lambda + API Gateway: No infrastructure
 - Support for the WebSocket protocol
