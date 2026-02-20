@@ -1,3 +1,5 @@
+It is like a search engine to query logs. Uses SQL-like language. 
+
 ## Container Insights
 - Collect, aggregate, summarize metrics and logs from containers. 
 - Works on ECS, EKS, Kubernetes on EC2, and Fargate.

@@ -1,3 +1,4 @@
+
 Provides governance, compliance and audit for your AWS Account, enabled by default.
 
 - Get an history of events, API calls made within your AWS account by:
@@ -28,3 +29,11 @@ By defaults, data events are not logged (because of high volume)
 It analyzes your account to detect unusual activity, like inaccurate resource provisioning, hitting service limits, bursts of IAM actions etc.
 
 CloudTrail Insights analyzes normal management events to create a baseline. And then **continuously analyzes write events** to detect unusual patterns
+- Anomalies appear in CloudTrail console
+- Event is sent to S3
+- An EventBridge event is generated (for automation)
+
+
+## Event Retention
+Events are stored for 90 days in CloudTrail.
+To keep them beyond this point, log them to S3 and use Athena to analyze
