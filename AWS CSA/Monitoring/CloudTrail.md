@@ -19,7 +19,6 @@ Operations that are performed on resources in your AWS account. Examples:
 - By Default, trails are configured to log management events.
 - You can separate **Read Events** (no modification on resources) or **Write Events** (may modify resources)
 
-
 #### Data Events
 By defaults, data events are not logged (because of high volume)
 - Amazon S3 object-level activity (ex: GetObject, DeleteObject, PutObject): can separate Read and Write Events
