@@ -6,7 +6,7 @@ Questions that can be solved by AWS Config:
 - How has my ALB configuration changed over time?
 
 ### Config Rules
-You can use AWS managed config rules (over 75), or make custom rules defined in Lambda
+You can use AWS managed config rules (over 140), or make custom rules defined in Lambda
 - Ex: evaluate if each EBS disk is of type gp2
 - Ex: evaluate if each EC2 instance is t2.micro
 
